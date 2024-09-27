@@ -1,3 +1,4 @@
+-- Active: 1727232499620@@127.0.0.1@5432@softjobs
 CREATE DATABASE softjobs;
 
 \c softjobs;
@@ -10,3 +11,7 @@ CREATE TABLE usuarios (
   lenguage  VARCHAR(20)   NOT NULL,
   PRIMARY KEY (id)
 );
+
+
+
+SELECT * FROM usuarios;
